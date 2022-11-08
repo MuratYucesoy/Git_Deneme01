@@ -19,6 +19,16 @@ public class Q3Arrays {
             index--;
         }
         System.out.println(sum);
+        System.out.println("************************* do while *********************");
+
+        sum=0;
+        index=0;
+        do {
+            sum+=numbers[index];
+            index++;
+        }while (index<numbers.length);
+        System.out.println(sum);
+
 
     }
 }
