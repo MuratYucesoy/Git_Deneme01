@@ -1,10 +1,12 @@
+package day06;
+
 import java.util.Scanner;
 
-public class Q4ucgenMi {
+public class Q4UcgenMi {
     /*
-    kullanicidan 3 kenar uzunlugu alarak girilen degerlerle ucgen olusturulup olusturulamayacagini kontrol edin,
-    eger ucgen olma sartlarini sagliyorsa eskenar ucgen mi diye kontrol edin
-     */
+   kullanicidan 3 kenar uzunlugu alarak girilen degerlerle ucgen olusturulup olusturulamayacagini kontrol edin,
+   eger ucgen olma sartlarini sagliyorsa eskenar ucgen mi diye kontrol edin
+    */
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
         System.out.println("Ucgen olusturmak icin 3 kenar uzunlugu giriniz");
